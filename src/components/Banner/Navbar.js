@@ -15,7 +15,7 @@ const Navbar = () => {
           Odd<span>Cars</span>
         </h1>
       </div>
-     
+
       <div className="link-con">
         <div className="fold">
           <Link>About</Link>
@@ -42,38 +42,40 @@ const Navbar = () => {
         </div>
       </div>
 
-        <div className="download">
-          <button>
-            <span>
-              <AiFillApple size={"18px"} />
-            </span>
-            Download app
-          </button>
-        </div>
-      {extend &&  ( <extendedCon>
-      <div className="fold-active">
-        <Link>About</Link>
-          <Link>
-            <select>
-              <option>Features</option>
-              <option value="Toyota">Toyota</option>
-              <option value="Lexus">Lexus</option>
-              <option value="mercedes">Mercedes</option>
-              <option value="Chevrolet">Chevrolet</option>
-            </select>
-          </Link>
-          <Link>Resources</Link>
-          <Link>Contacts</Link>
-          <div className="download">
-          <button>
-            <span>
-              <AiFillApple size={"18px"} />
-            </span>
-            Download app
-          </button>
-        </div>
-        </div>
-        </extendedCon>)}
+      <div className="download">
+        <button>
+          <span>
+            <AiFillApple size={"18px"} />
+          </span>
+          Download app
+        </button>
+      </div>
+      {extend && (
+        <extendedCon>
+          <div className="fold-active">
+            <Link>About</Link>
+            <Link>
+              <select>
+                <option>Features</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Lexus">Lexus</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="Chevrolet">Chevrolet</option>
+              </select>
+            </Link>
+            <Link>Resources</Link>
+            <Link>Contacts</Link>
+            <div className="download">
+              <button>
+                <span>
+                  <AiFillApple size={"18px"} />
+                </span>
+                Download app
+              </button>
+            </div>
+          </div>
+        </extendedCon>
+      )}
     </Navcon>
   );
 };

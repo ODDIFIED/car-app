@@ -4,7 +4,7 @@ import { RentalAPI } from "../../Data";
 const Rental = () => {
   const [Car] = useState(RentalAPI);
   const [Value, setValue] = useState(0);
-  const { id, name, brand, price, img, AC, Transmission, Fuel } = Car[Value];
+  const {  name, brand, price, img, AC, Transmission, Fuel } = Car[Value];
   return (
     <div>
       <h4>Collections</h4>
@@ -13,12 +13,14 @@ const Rental = () => {
         <div className="btn-folder">
           {Car.map((item, id) => {
             return (
-              <button className="rent-btn" onClick={() => setValue(id)}>{item.fullname}</button>
+              <button className="rent-btn" onClick={() => setValue(id)}>
+                {item.fullname}
+              </button>
             );
           })}
         </div>
         <div className="rent-img">
-          <img  src={img} alt={name} />
+          <img src={img} alt={name} />
         </div>
         <div className="car-data">
           <h5 className="rent-price">{price}/ rent per day</h5>

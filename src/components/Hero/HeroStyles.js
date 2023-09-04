@@ -16,7 +16,7 @@ export const HeroCon = styled.div`
     
     .content::before {
       content: '';
-      background-image: var(--backgroundImg);
+      background-image: var(--backgroundImgBigScreen);
       background-size: cover;
       background-repeat: no-repeat;
       position: absolute;
@@ -207,19 +207,19 @@ export const HeroCon = styled.div`
     
     }
   }
-  @media screen and (max-width: 400px){
+  @media screen and (max-width: 430px){
     width: 100%;
-    max-width: 800px;
-    height: 35vh;
+    max-width: 450px;
+    height: 30vh;
     .content {
       width: 100%;
-      height: 35vh;
+      height: 30vh;
       position: relative;
       background-color: gainsboro;
      }
      .content::before {
       content: '';
-      background-image: var(--backgroundImg);
+      background-image: var(--backgroundImgHero);
       background-size: cover;
       background-repeat: no-repeat;
       position: absolute;
@@ -261,8 +261,13 @@ export const HeroCon = styled.div`
   }
   @media screen and (max-width: 400px){
     width: 100%;
-    max-width: 800px;
-    height: 45vh;
-   
+    max-width: 400px;
+    
+    .content {
+      width: 100%;
+      height: 35vh;
+      position: relative;
+      background-color: gainsboro;
+     }
   }
 `;

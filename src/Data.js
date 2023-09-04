@@ -187,7 +187,7 @@ export const CarsAPI = [
   },
 ];
 
-export const RentalAPI =[
+export const RentalAPI = [
   {
     id: 1,
     name: "Camaro",
@@ -243,5 +243,4 @@ export const RentalAPI =[
     Transmission: "Automatic",
     Fuel: "Petrol",
   },
-  
-]
+];

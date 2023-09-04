@@ -12,9 +12,10 @@
 :root {
   --voilet: #530093;
   --navfont: 'Righteous', cursive;
-  --backgroundImg: url(./images/chevolet-hero\ cut-2.jpg);
+  --backgroundImgHero: url(./images/chevolet-hero\ cut-2.jpg);
+  --backgroundImgBigScreen: url(./images/peter-broomfield-m3m-lnR90uM-unsplash\ cut.jpg);
   --backgroundImgTwo: url(./images/gabriel-gurrola-u6BPMXgURuI-unsplash\ resize.jpg);
-  --backgroundImgMobile: url(./images/gabriel-gurrola-u6BPMXgURuI-unsplash-mobile.jpg);
+  --backgroundImgMobile: url(./images/gabriel-gurrola-u6BPMXgURuI-unsplash\ mobile.jpg);
   --poppins: 'Poppins', sans-serif;
 }
 
@@ -25,4 +26,3 @@ a {
 .App {
   text-align: center;
 }
-

@@ -6,12 +6,12 @@ export const FootCon = styled.div`
 
   #black-footer {
     background-color: black;
-    height: 40vh;
+    height: 25vh;
     width: 100%;
   }
   #blue-footer {
     background-color: var(--voilet);
-    height: 40vh;
+    height: 30vh;
     width: 95%;
     margin: auto;
     position: relative;
@@ -79,13 +79,55 @@ export const FootCon = styled.div`
     align-items: center;
   }
 
+ 
+  @media (min-width: 1279px) and (max-width: 1300px) {
+    margin-top: 150px;
+    max-width: 1300px;
+
+    #black-footer {
+      background-color: black;
+      height: 31vh;
+      width: 100%;
+    }
+    #blue-footer {
+      background-color: var(--voilet);
+      height: 35vh;
+      width: 95%;
+      margin: auto;
+      position: relative;
+      top: -170px;
+      font-size: 60px;
+    }
+    h2 {
+      color: white;
+      text-align: center;
+      font-size: 30px;
+      isolation: isolate;
+      margin-top: 20px;
+      font-family: var(--poppins);
+      font-weight: 400;
+    }
+    h5 {
+      width: 80%;
+      margin: auto;
+      color: white;
+      text-align: center;
+      font-size: 11px;
+      isolation: isolate;
+      margin-top: 5px;
+
+      font-family: var(--poppins);
+      font-weight: 400;
+    }
+  }
+
   @media screen and (max-width: 900px) {
     margin-top: 150px;
     max-width: 1300px;
 
     #black-footer {
       background-color: black;
-      height: 20vh;
+      height: 40vh;
       width: 100%;
     }
     #blue-footer {
@@ -119,6 +161,7 @@ export const FootCon = styled.div`
       font-weight: 400;
     }
   }
+
   @media screen and (max-width: 801px) {
     margin-top: 150px;
     max-width: 1300px;
@@ -138,7 +181,7 @@ export const FootCon = styled.div`
       font-size: 60px;
     }
   }
-  @media screen and (max-width: 770px) {
+    @media screen and (max-width: 770px) {
     #black-footer {
       background-color: black;
       height: 20vh;
@@ -348,7 +391,7 @@ export const FootNav = styled.div`
   border-top: 0px;
   border-right: 0px;
   position: relative;
-  top: 170px;
+  top: 130px;
   border-bottom: 0px;
 
   .icons-fold {
@@ -381,8 +424,8 @@ export const FootNav = styled.div`
   .icon {
     margin-left: 6px;
     border: 1px solid grey;
-    border-radius: 100%;
-    padding: 2px;
+    border-radius: 20%;
+    padding: 5px;
   }
   @media screen and (max-width: 900px) {
     width: 100%;
