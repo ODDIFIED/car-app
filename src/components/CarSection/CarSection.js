@@ -11,7 +11,7 @@ const CarSection = () => {
     <Carsfold>
         <h4>Collections</h4>
         <h2>Available for Sale</h2>
-        <div className='item-grid'>
+        <div className='item-grid' class='text'>
             {CarsAPI.map((item) =>{
                 return <CarCard item={item} key={item.id} />
             })}

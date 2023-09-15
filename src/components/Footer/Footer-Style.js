@@ -127,7 +127,7 @@ export const FootCon = styled.div`
 
     #black-footer {
       background-color: black;
-      height: 40vh;
+      height: 20vh;
       width: 100%;
     }
     #blue-footer {
@@ -229,13 +229,13 @@ export const FootCon = styled.div`
       width: 95%;
       margin: auto;
       position: relative;
-      top: -130px;
+      top: -100px;
       font-size: 60px;
     }
     h2 {
       color: white;
       text-align: center;
-      font-size: 20px;
+      font-size: 16px;
       isolation: isolate;
       margin-top: 10px;
       font-family: var(--poppins);
