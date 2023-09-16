@@ -89,7 +89,6 @@ export const Carsfold = styled.div`
       margin-bottom: 0px;
       padding: 5px 10px;
     }
-    
   }
   @media screen and (max-width: 770px) {
     .item-grid {
@@ -111,8 +110,7 @@ export const Carsfold = styled.div`
       grid-template-columns: repeat(1, 1fr);
       gap: 5px;
       margin-top: 20px;
-     margin-bottom: 40px;
-
+      margin-bottom: 40px;
     }
   }
   @media screen and (max-width: 500px) {
@@ -123,7 +121,7 @@ export const Carsfold = styled.div`
       grid-template-columns: repeat(1, 1fr);
       gap: 0px;
       margin-top: 20px;
-     margin-bottom: 40px;
+      margin-bottom: 40px;
     }
     .rent-fold {
       width: 100%;
@@ -133,7 +131,7 @@ export const Carsfold = styled.div`
       justify-content: center;
       align-items: center;
     }
-  
+
     .btn-folder {
       display: column;
       justify-content: center;
@@ -154,7 +152,7 @@ export const Carsfold = styled.div`
       grid-template-columns: repeat(1, 1fr);
       gap: 0px;
       margin-top: 20px;
-     margin-bottom: 40px;
+      margin-bottom: 40px;
     }
     .rent-fold {
       width: 100%;
@@ -165,7 +163,7 @@ export const Carsfold = styled.div`
       align-items: center;
     }
     .rent-btn {
-      width:100%;
+      width: 100%;
       margin-bottom: 0px;
       margin-top: 20px;
       padding: 3px 8px;
@@ -186,13 +184,13 @@ export const Carsfold = styled.div`
 export const CardHolder = styled.div`
   border: 1px solid gainsboro;
   width: 60%;
-  height: 55vh;
+  height: 56vh;
   margin: auto;
   border-radius: 15px;
   box-shadow: 0px 1px 11px -3px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 0px 1px 11px -3px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 1px 11px -3px rgba(0, 0, 0, 0.75);
-
+  
   .img-folder {
     height: 50%;
     object-fit: cover;
@@ -293,12 +291,11 @@ export const CardHolder = styled.div`
     height: 43vh;
     margin: auto;
     margin-bottom: 20px;
-
   }
   @media screen and (max-width: 600px) {
     border: 1px solid gainsboro;
     width: 90%;
-    height:  55vh;
+    height: 55vh;
     margin-bottom: 20px;
     .img-folder {
       height: 60%;
@@ -310,13 +307,11 @@ export const CardHolder = styled.div`
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
     }
-    
-
   }
   @media screen and (max-width: 400px) {
     border: 1px solid gainsboro;
     width: 100%;
-    height:  57vh;
+    height: 57vh;
     margin-bottom: 20px;
 
     .img-folder {
@@ -329,12 +324,11 @@ export const CardHolder = styled.div`
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
     }
-
   }
   @media screen and (max-width: 330px) {
     border: 1px solid gainsboro;
     width: 100%;
-    height:  90vh;
+    height: 90vh;
     margin-bottom: 20px;
 
     .img-folder {
@@ -347,6 +341,5 @@ export const CardHolder = styled.div`
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
     }
-
   }
 `;

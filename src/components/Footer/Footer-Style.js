@@ -6,7 +6,7 @@ export const FootCon = styled.div`
 
   #black-footer {
     background-color: black;
-    height: 25vh;
+    height: 200px;
     width: 100%;
   }
   #blue-footer {
@@ -71,7 +71,7 @@ export const FootCon = styled.div`
     display: flex;
     justify-center: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 10px;
   }
 
   .download button span {
@@ -80,48 +80,9 @@ export const FootCon = styled.div`
   }
 
  
-  @media (min-width: 1279px) and (max-width: 1300px) {
-    margin-top: 150px;
-    max-width: 1300px;
+  
 
-    #black-footer {
-      background-color: black;
-      height: 31vh;
-      width: 100%;
-    }
-    #blue-footer {
-      background-color: var(--voilet);
-      height: 35vh;
-      width: 95%;
-      margin: auto;
-      position: relative;
-      top: -170px;
-      font-size: 60px;
-    }
-    h2 {
-      color: white;
-      text-align: center;
-      font-size: 30px;
-      isolation: isolate;
-      margin-top: 20px;
-      font-family: var(--poppins);
-      font-weight: 400;
-    }
-    h5 {
-      width: 80%;
-      margin: auto;
-      color: white;
-      text-align: center;
-      font-size: 11px;
-      isolation: isolate;
-      margin-top: 5px;
-
-      font-family: var(--poppins);
-      font-weight: 400;
-    }
-  }
-
-  @media screen and (max-width: 900px) {
+  @media (max-width: 900px) {
     margin-top: 150px;
     max-width: 1300px;
 
