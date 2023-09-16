@@ -36,7 +36,7 @@ const Navbar = () => {
                 setExtend((curr) => !curr);
               }}
             >
-              {extend ? <>&#10005;</> : <>&#8801;</>}{" "}
+              {extend ? <>&#10005;</> : <>&#8801;</>}
             </button>
           </div>
         </div>

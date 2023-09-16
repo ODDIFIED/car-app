@@ -4,8 +4,8 @@ export const Navcon = styled.div`
   border: 1px solid grainsboro;
   width: 100%;
   max-width: 1300px;
-  // height: 100vh;
-  height: ${(props) => (props.extend ? "50vh" : "70vh")}
+  height: ${(props) => (props.extend ? "50vh"   : "100vh")}
+
   margin: auto;
   padding-block: 10px;
   text-align: left;
@@ -193,6 +193,7 @@ export const Navcon = styled.div`
     width: 100%;
     max-width: 400px;
     height: 100vdh;
+    
 
     .fold a {
       display: none;
