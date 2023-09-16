@@ -295,7 +295,7 @@ export const CardHolder = styled.div`
   @media screen and (max-width: 600px) {
     border: 1px solid gainsboro;
     width: 90%;
-    height: 60vh;
+    height: 58vh;
     margin-bottom: 23px;
     .img-folder {
       height: 60%;
@@ -306,6 +306,9 @@ export const CardHolder = styled.div`
       height: 100%;
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
+    }
+    article button {
+      margin-top: 7px;
     }
   }
   @media screen and (max-width: 400px) {
