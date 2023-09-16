@@ -161,7 +161,7 @@ export const FootCon = styled.div`
   @media screen and (max-width: 500px) {
     #black-footer {
       background-color: black;
-      height: 20vh;
+      height: 22vh;
       width: 100%;
     }
     #blue-footer::before {
