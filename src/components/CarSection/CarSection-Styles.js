@@ -184,7 +184,7 @@ export const Carsfold = styled.div`
 export const CardHolder = styled.div`
   border: 1px solid gainsboro;
   width: 60%;
-  height: 56vh;
+  height: 57vh;
   margin: auto;
   border-radius: 15px;
   box-shadow: 0px 1px 11px -3px rgba(0, 0, 0, 0.75);
@@ -258,14 +258,9 @@ export const CardHolder = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 7px;
   }
-  @media screen and (max-width: 900px) {
-    border: 1px solid gainsboro;
-    width: 85%;
-    height: 35vh;
-    margin: auto;
-    margin-bottom: 20px;
+  @media screen and (max-width: 1290px) {
 
     .img-folder {
       height: 55%;
@@ -278,13 +273,19 @@ export const CardHolder = styled.div`
       border-top-left-radius: 10px;
     }
   }
+ 
   @media screen and (max-width: 900px) {
     border: 1px solid gainsboro;
     width: 80%;
-    height: 37vh;
+    height: 40vh;
     margin: auto;
     margin-bottom: 20px;
+    article button {
+      margin-top: 15px;
+    }
+
   }
+
   @media screen and (max-width: 770px) {
     border: 1px solid gainsboro;
     width: 90%;
@@ -308,14 +309,14 @@ export const CardHolder = styled.div`
       border-top-left-radius: 10px;
     }
     article button {
-      margin-top: 7px;
+      margin-top: 10px;
     }
   }
   @media screen and (max-width: 400px) {
     border: 1px solid gainsboro;
-    width: 100%;
+    width: 90%;
     height: 57vh;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     .img-folder {
       height: 60%;
@@ -327,7 +328,31 @@ export const CardHolder = styled.div`
       border-top-right-radius: 10px;
       border-top-left-radius: 10px;
     }
+    article button {
+      margin-top: 10px;
+    }
   }
+  @media screen and (max-width: 360px) {
+    border: 1px solid gainsboro;
+    width: 90%;
+    height: 56vh;
+    margin-bottom: 30px;
+
+    .img-folder {
+      height: 60%;
+      object-fit: cover;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    article button {
+      margin-top: 10px;
+    }
+  }
+ 
   @media screen and (max-width: 330px) {
     border: 1px solid gainsboro;
     width: 100%;

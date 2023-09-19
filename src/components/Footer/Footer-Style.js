@@ -11,7 +11,7 @@ export const FootCon = styled.div`
   }
   #blue-footer {
     background-color: var(--voilet);
-    height: 30vh;
+    height: 25vh;
     width: 95%;
     margin: auto;
     position: relative;
@@ -30,7 +30,7 @@ export const FootCon = styled.div`
   }
   .overall {
     position: relative;
-    top: 40px;
+    top: 10px;
     width: 60%;
     margin: auto;
     isolation: isolate;
@@ -186,7 +186,7 @@ export const FootCon = styled.div`
     }
     #blue-footer {
       background-color: var(--voilet);
-      height: 20vh;
+      height: 17vh;
       width: 95%;
       margin: auto;
       position: relative;
