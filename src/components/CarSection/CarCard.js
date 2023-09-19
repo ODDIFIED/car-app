@@ -36,7 +36,7 @@ const CarCard = ({ item }) => {
             
           </div>
           <>
-            <button>Buy Now</button>
+            <button>Contact dealer</button>
           </>
         </article>
       </div>
